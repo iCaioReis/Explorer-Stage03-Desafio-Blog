@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+
+    font-family: 'Mulish', sans-serif;
+
+    --color-base-white: #ffffff;
+    --color-base-gray-700: #121214;
+    --color-base-gray-900: #202024;
+    --color-base-cyan-400: #387E96;
+    --color-base-cyan-600: #065E7C;
+
+}
+
+html,
+body, 
+input{
+    font-size: 1.6rem;
+}
