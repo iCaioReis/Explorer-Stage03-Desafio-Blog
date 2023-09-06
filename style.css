@@ -18,12 +18,51 @@
     --color-base-cyan-600: #065E7C;
 
 }
-
 html,
 body, 
-input{
+input {
     font-size: 1.6rem;
 }
-button{
+button {
     background-color: black;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.6rem 0;
+
+    gap: 2.4rem;
+
+    background-color: var(--color-base-cyan-600);
+}
+#logo, .avatar{
+    width: 4rem;
+    height: 4rem;
+}
+.avatar{
+    border-radius: 50%;
+}
+.input-wrapper label {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+.input-wrapper input{
+    background: rgba(255, 255, 255, 0.20);
+
+    padding: 12px 16px 12px 14px;
+    border-radius: 4px;
+    border: none;
+
+    align-items: center;
+}
+.input-wrapper input::placeholder{
+    color: var(--color-base-white);
+    font-size: 1.6rem;
+}
+
+img{
+    width: 100%;
 }
