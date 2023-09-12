@@ -18,14 +18,17 @@
     --color-base-cyan-600: #065E7C;
 
 }
+
 html,
-body, 
+body,
 input {
     font-size: 1.6rem;
 }
+
 button {
     background-color: black;
 }
+
 header {
     display: flex;
     align-items: center;
@@ -36,20 +39,25 @@ header {
 
     background-color: var(--color-base-cyan-600);
 }
-#logo, .avatar{
+
+#logo,
+.avatar {
     width: 4rem;
     height: 4rem;
 }
-.avatar{
+
+.avatar {
     border-radius: 50%;
 }
+
 .input-wrapper label {
     width: 1px;
     height: 1px;
     overflow: hidden;
     position: absolute;
 }
-.input-wrapper input{
+
+.input-wrapper input {
     background: rgba(255, 255, 255, 0.20);
 
     padding: 12px 16px 12px 14px;
@@ -58,11 +66,104 @@ header {
 
     align-items: center;
 }
-.input-wrapper input::placeholder{
+
+.input-wrapper input::placeholder {
     color: var(--color-base-white);
     font-size: 1.6rem;
 }
 
-img{
+img {
     width: 100%;
+}
+
+.content {
+    padding: 0 2.2rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 160%;
+    color: var(--color-base-gray-900);
+
+    margin-top: 3.2rem;
+}
+.content p{
+    color: var(--color-base-gray-700);
+    line-height: 160%;
+}
+.action {
+    margin-bottom: 3.2rem;
+}
+.action button{
+    background-color: var(--color-base-cyan-600);
+    width: 4rem;
+    height: 4rem;
+
+    border-radius: 50%;
+    border: none;
+
+    padding: 1.2rem;
+    margin-top: 0.8rem;
+}
+
+.related .content{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2px;
+}
+
+.galery{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.item{
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+}
+.item img{
+    max-width: 15.1rem;
+    height: 8.4rem;
+    object-fit: cover;
+
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+
+    border-radius: 0.8rem;
+}
+
+.item figcaption{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.item figcaption h2 {
+    color: var(--color-base-gray-900);
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.item figcaption p {
+    color: var(--color-base-gray-700);
+    font-size: 1.4rem;
+    line-height: 160%;
+}
+
+footer{
+    background-color: var(--color-base-cyan-600);
+    margin-top: 3.4rem;
+}
+
+footer p{
+    color: var(--color-base-white);
+    text-align: center;
+    font-weight: 600;
+    padding: 2.6rem;
 }
